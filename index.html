@@ -1,12 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+  <style>
+    .box {
+      width: 500px;
+      height: 200px;
+      border: 1px solid red;
+    }
+    .item {
+      width: 200px;
+      height: 40px;
+      border: 1px dodgerblue solid;
+      margin-left: auto;
+    }
+  </style>
   <body>
-    <button id="btn">点我</button>
-    <script>
-       btn.onclick = function() {
-         const arr = new Array(1000000)
-         console.log(arr)
-       }
-    </script>
+    <div class="box">
+      <div class="item"></div>
+    </div>
   </body>
 </html>
